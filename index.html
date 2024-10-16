@@ -1,0 +1,144 @@
+<html lang="en">
+ <head>
+  <meta charset="utf-8"/>
+  <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+  <title>
+   PE Tick Transport
+  </title>
+  <script src="https://cdn.tailwindcss.com">
+  </script>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet"/>
+  <link rel="stylesheet" href="style.css">
+ </head>
+ <body class="bg-gray-100">
+  <header class="bg-white shadow-md">
+   <div class="container mx-auto flex justify-between items-center py-4 px-6">
+    <div class="container mx-auto flex justify-between items-center py-4 px-6">
+      <div class="text-2xl font-bold">
+          <span class="text-black">
+              PE
+          </span>
+          <span class="text-orange-500">
+              Tick
+          </span>
+      </div>
+    <nav class="space-x-4">
+     <a class="text-black" href="#">
+      Tentang
+     </a>
+     <a class="text-black" href="#">
+      Kontak
+     </a>
+    </nav>
+    <div class="space-x-4">
+     <button class="bg-gray-200 text-black py-2 px-4 rounded">
+      Cek Tiket
+     </button>
+     <button class="bg-yellow-500 text-white py-2 px-4 rounded">
+      Daftar/Masuk
+     </button>
+    </div>
+   </div>
+  </header>
+  <main class="bg-yellow-500 py-10">
+   <div class="container mx-auto">
+    <div class="bg-white p-6 rounded shadow-md">
+     <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-4">
+      <div>
+       <label class="block text-gray-700" for="keberangkatan">
+        Keberangkatan
+       </label>
+       <select class="w-full border border-gray-300 rounded py-2 px-3" id="keberangkatan">
+        <option>
+         Pilih Keberangkatan
+        </option>
+       </select>
+      </div>
+      <div>
+       <label class="block text-gray-700" for="tujuan">
+        Tujuan
+       </label>
+       <select class="w-full border border-gray-300 rounded py-2 px-3" id="tujuan">
+        <option>
+         Pilih Tujuan
+        </option>
+       </select>
+      </div>
+      <div>
+       <label class="block text-gray-700" for="penumpang">
+        Penumpang
+       </label>
+       <select class="w-full border border-gray-300 rounded py-2 px-3" id="penumpang">
+        <option>1 Orang</option>
+        <option>2 Orang</option>
+        <option>3 Orang</option>
+        <option>4 Orang</option>
+        <option>5 Orang</option>
+        <option>6 Orang</option>
+       </select>
+      </div>
+      <div>
+       <label class="block text-gray-700" for="tanggal-pergi">
+        Tanggal Pergi
+       </label>
+       <input class="w-full border border-gray-300 rounded py-2 px-3" id="tanggal-pergi" type="date" value="2024-10-16"/>
+      </div>
+      <div>
+       <label class="block text-gray-700" for="tanggal-pulang">
+        Tanggal Pulang
+       </label>
+       <input class="w-full border border-gray-300 rounded py-2 px-3" disabled="" id="tanggal-pulang" type="date"/>
+      </div>
+     </div>
+     <div class="mt-4 flex justify-end">
+      <button class="bg-yellow-500 text-white py-2 px-6 rounded flex items-center">
+       <i class="fas fa-search mr-2">
+       </i>
+       Cari
+      </button>
+     </div>
+    </div>
+   </div>
+  </main>
+  <footer class="bg-gray-800 text-white py-10">
+   <div class="container mx-auto grid grid-cols-1 md:grid-cols-3 gap-4">
+    <div class="text-2xl font-bold">
+      <span class="text-white">
+        PE
+    </span>
+    <span class="text-orange-500">
+        Tick
+    </span>
+    </div>
+    <div>
+     <h3 class="font-bold mb-2">
+      Call Center
+     </h3>
+     <p>
+      Telepon
+     </p>
+     <p>
+      0812-9290-4010
+     </p>
+    </div>
+    <div>
+    </div>
+    <div>
+     <h3 class="font-bold mb-2">
+      Sosial Media
+     </h3>
+     <div class="flex space-x-4">
+      <a class="text-white" href="#">
+       <i class="fab fa-facebook-f">
+       </i>
+      </a>
+      <a class="text-white" href="#">
+       <i class="fab fa-instagram">
+       </i>
+      </a>
+     </div>
+    </div>
+   </div>
+  </footer>
+ </body>
+</html>
